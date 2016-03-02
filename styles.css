@@ -1,0 +1,83 @@
+body {
+  font-family:"Helvetica", "Arial", sans-serif;
+  font-size:12px;
+}
+
+a {
+  text-decoration:none;
+}
+
+.octocat > a img {
+  width:300px;
+  border:2px solid lightgrey;
+}
+
+.octocat > a:after {
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  border-color: lightgrey transparent transparent transparent;
+  position:absolute;
+  bottom:34px;
+  right:6px;
+}
+
+.authors img {
+  width:20px;
+  margin-top:7px;
+}
+
+ul {
+  list-style:none;
+  padding-left:0;
+}
+
+.octocat {
+  float:left;
+  margin-right:10px;
+  border-bottom:2px solid lightgrey;
+  position:relative;
+  margin-bottom:20px;
+}
+
+.image-caption {
+  text-align:right;
+}
+
+.image-caption > span, .image-caption > a {
+  line-height:36px;
+  font-weight:bold;
+  color:grey;
+}
+
+.image-caption > a {
+  color:#666;
+  text-decoration:none;
+}
+
+.image-caption > a:hover {
+  text-decoration: underline;
+}
+
+.authors {
+  float:right;
+}
+
+.authors img {
+  margin-left:5px;
+}
+
+.image-number {
+  float:left;
+  line-height:35px;
+  color:lightgrey;
+  font-weight:bold;
+}
+
+.image-number:before {
+  content:"#";
+  color:lightgrey;
+  font-weight:bold;
+}
